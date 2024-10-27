@@ -29,7 +29,7 @@ void SetOrClearMultiBit(unsigned int *address, unsigned char position, unsigned 
 void LEDConfig (void)
 {
 	SetOrClearBit((unsigned int*) PCC_PORTD, 30u, SET_BIT);
-	SetOrClearMultiBit((unsigned int*) PORT_PCR15, 8u, 1u, SET_BIT);
+	SetOrClearMultiBit((unsigned int*) PORTD_PCR15, 8u, 1u, SET_BIT);
 	SetOrClearBit((unsigned int*) GPIOD_PDDR, 15u, SET_BIT); 
 }
 

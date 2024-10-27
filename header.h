@@ -2,7 +2,7 @@
 #define CLEAR_BIT 0
 
 #define PCC_PORTD (0x40065000u + 0x130u) //PORTD PIN 15
-#define PORT_PCR15 (0x4004C000u + 0x3Cu)
+#define PORTD_PCR15 (0x4004C000u + 0x3Cu)
 #define GPIOD_PDDR (0x400FF0C0u + 0x14u)
 #define GPIOD_PDOR (0x400FF0C0u + 0x0u)
 
