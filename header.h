@@ -7,7 +7,7 @@
 #define GPIOD_PDOR (0x400FF0C0u + 0x0u)
 
 #define PCC_PORTC (0x40065000u + 0x12Cu) //PORTC PIN 13 
-#define PORT_PCR13 (0x4004B000u + 0x34u)
+#define PORTC_PCR13 (0x4004B000u + 0x34u)
 #define GPIOC_PDDR (0x400FF080u + 0x14u)
 #define GPIOC_PDIR (0x400FF080u + 0x10u)
 
